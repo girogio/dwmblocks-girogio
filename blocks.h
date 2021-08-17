@@ -6,7 +6,9 @@ static const Block blocks[] = {
 	//{ "",		"get_volume_pamixer",		0,					10 },
 	//{ "",		"disk_perc",				300,				0 },
 	//{ "",		"cpu_temp",					60,					0 },
-	{ "",		"calendar",					60000000,					15 },
+    { "",       "bat_level",                1,                  1},
+    { "",       "get_vol",                  1,                   1},
+    { "",		"calendar",					60000000,			15 },
 	{ "",		"local_time",				60,					0 },
 };
 
